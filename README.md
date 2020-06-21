@@ -13,7 +13,7 @@ Antes de executar a API em seu ambiente local, é necessário ter instalado:
 3. No terminal, execute o comando npm install para instalar as dependências do projeto (Caso você tenha o yarn instalado em sua máquina, execute apenas yarn para a instalação das dependencias)
 4. Tendo finalizado o processo anterior, execute o comando npm run dev (ou yarn dev), para executar a API e a partir desse momento a API estará sendo executada de forma local na porta 3333
 
-## <⁄> Consumo da API
+## 📩 Consumo da API
 * Você pode consultar o arquivo server.js para consultar quais rotas a mesma tem disponivel
 * Na pasta postman, existe também o diretorio com as collections do postman das consultas aos endpoints existentes na API 
 
