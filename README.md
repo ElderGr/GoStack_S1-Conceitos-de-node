@@ -1,3 +1,5 @@
+![alt text](https://www.google.com/search?q=gostack&sxsrf=ALeKk00c90b-oVlmxINVGcZvGKWinGz-BA:1592754983792&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjWs5fYopPqAhV6CrkGHXo6D14Q_AUoA3oECAwQBQ&biw=1920&bih=969#imgrc=S-Ke-YOU5Hyz8M)
+
 # Desafio GoStack: Conceitos básicos de Node
 Projeto desenvolvido durante a Semana 1 do bootcamp GoStack, onde conceitos básicos de node foram exercitados. 
 
