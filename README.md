@@ -1,5 +1,5 @@
-# GoStack Challenge: Node Basics Concepts
-Projeto desenvolvido durante a Semana 1 do bootcamp GoStack, onde conceitos básicos de node foram exercitados.
+# Desafio GoStack: Conceitos básicos de Node
+Projeto desenvolvido durante a Semana 1 do bootcamp GoStack, onde conceitos básicos de node foram exercitados. 
 
 ## ⚙ Pré-requisitos
 Antes de executar a API em seu ambiente local, é necessário ter instalado:
