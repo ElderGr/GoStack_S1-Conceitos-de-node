@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "3e8567ae-11a7-46c9-a5f0-7fbe655d953b",
+		"name": "Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Desafio Node.js\",\r\n    \"url\": \"https://github.com/ElderGr/gostack-conceitos-node\",\r\n    \"techs\": [\"Node.js\", \"Express\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/repositories",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repositories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/repositories",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repositories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Desafio backend em Node.js\",\r\n    \"url\": \"https://github.com/ElderGr/gostack-conceitos-node\",\r\n    \"techs\": [\"Node.js\", \"Express\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/repositories/20f16b2e-e018-4ec0-afa3-ec388418e29c",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repositories",
+						"20f16b2e-e018-4ec0-afa3-ec388418e29c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/repositories/51dc1a73-7fb9-4619-b687-d3b491e0b5dc",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repositories",
+						"51dc1a73-7fb9-4619-b687-d3b491e0b5dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/repositories/cdccb05b-9ace-43bf-8d6e-7c4c2fbc3037/like",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repositories",
+						"cdccb05b-9ace-43bf-8d6e-7c4c2fbc3037",
+						"like"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
